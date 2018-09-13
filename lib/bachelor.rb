@@ -54,6 +54,7 @@ def get_occupation(data, hometown)
 end
 
 def average_an_array(array)
+  puts "//////////"
   total = 0
   array.each do |x|
     total += x
