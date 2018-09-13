@@ -18,6 +18,9 @@ def get_contestant_name(data, occupation)
   hash = data.collect do |x,y|
     y.find do |w|
       w["occupation"] == occupation
+    end
+  end
+  puts hash
 end
 
 def count_contestants_by_hometown(data, hometown)
