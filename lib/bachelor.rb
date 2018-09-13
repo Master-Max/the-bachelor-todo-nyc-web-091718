@@ -15,17 +15,14 @@ def get_first_name_of_season_winner(data, season)
 end
 
 def get_contestant_name(data, occupation)
-  hash = data.collext do |x,y|
+  hash = data.collect do |x,y|
     y.find do |w|
       w["occupation"] == occupation
     end
   end
   puts "===+++==="
-  puts "#{hash.class} : #{hash}"
-  realHash = hash.find do |x|
-    x.class = Hash
-  end
-  puts "#{realHash.class} : #{realHash}"
+  puts "#{hash.class} : #{hash.}"
+  
 end
 
 def count_contestants_by_hometown(data, hometown)
