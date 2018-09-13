@@ -4,6 +4,7 @@ def get_first_name_of_season_winner(data, season)
     x["status"] == "Winner"
   end
   puts "===+++==="
+  puts winHash
   winHash
 end
 
