@@ -22,6 +22,10 @@ def get_contestant_name(data, occupation)
   end
   puts "===+++==="
   puts "#{hash.class} : #{hash}"
+  realHash = hash.find do |x|
+    x.class = Hash
+  end
+  puts "#{realHash.class} : #{realHash}"
 end
 
 def count_contestants_by_hometown(data, hometown)
