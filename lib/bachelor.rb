@@ -58,7 +58,7 @@ def average_an_array(array)
   total = 0
   array.each do |x|
     puts "|X|#{x.class} || #{x}"
-    total = total + x
+    total = total + x.to_i
   end
   puts total
 end
