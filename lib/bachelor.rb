@@ -54,11 +54,11 @@ def get_occupation(data, hometown)
 end
 
 def average_an_array(array)
-  total
+  total = 0
   array.each do |x|
     total += x
   end
-  total / array.length
+  puts total
 end
 
 def get_average_age_for_season(data, season)
