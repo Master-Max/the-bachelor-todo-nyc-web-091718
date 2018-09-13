@@ -60,7 +60,7 @@ def average_an_array(array)
     puts "|X|#{x.class} || #{x}"
     total = total + x.to_i
   end
-  puts total
+  puts total / array.length
 end
 
 def get_average_age_for_season(data, season)
