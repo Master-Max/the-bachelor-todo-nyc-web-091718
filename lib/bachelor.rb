@@ -20,6 +20,7 @@ def get_contestant_name(data, occupation)
       w["occupation"] == occupation
     end
   end
+  puts "===+++==="
   puts hash
 end
 
