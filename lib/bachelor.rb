@@ -29,7 +29,7 @@ end
 
 def count_contestants_by_hometown(data, hometown)
   hash = data.collect do |x,y|
-    y.find do |w|
+    y.find_all do |w|
       w["hometown"] == hometown
     end
   end
