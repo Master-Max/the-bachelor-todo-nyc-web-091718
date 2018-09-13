@@ -2,7 +2,7 @@ def get_first_name_of_season_winner(data, season)
   data[season].find do |x|
     puts "#{x["status"]}"
     x["status"] == "Winner"
-    x["name"]
+    return x["name"]
   end
 end
 
