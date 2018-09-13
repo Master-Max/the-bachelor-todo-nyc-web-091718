@@ -59,11 +59,7 @@ def get_average_age_for_season(data, season)
   array_of_ages = data[season].collect do |x,y|
     puts ".."
     puts "|X|#{x.class} || #{x}"
-    y.collect do |w,z|
-      puts"."
-      puts "||#{w.class} || #{w}"
-      w["age"].collect
-    end
+    x["age"].collect
   end
   puts "#{season}: #{array_of_ages}"
 end
