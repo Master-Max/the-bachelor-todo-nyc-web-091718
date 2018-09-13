@@ -1,5 +1,6 @@
 def get_first_name_of_season_winner(data, season)
-  data[season].find do |x| 
+  data[season].find do |x|
+    puts "#{x}"
     x[:status] == "Winner"
   end
 end
