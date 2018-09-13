@@ -37,6 +37,7 @@ def count_contestants_by_hometown(data, hometown)
   puts hash
   puts "=====-----====="
   puts hash.compact.length
+  hash.compact.length
 end
 
 def get_occupation(data, hometown)
