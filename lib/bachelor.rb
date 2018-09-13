@@ -33,14 +33,14 @@ def count_contestants_by_hometown(data, hometown)
       w["hometown"] == hometown
     end
   end
-  puts "=====+++++====="
-  puts "#{hash.class} : #{hash.compact}"
-  puts "=====-----====="
-  puts hash.compact.length
+  #puts "=====+++++====="
+  #puts "#{hash.class} : #{hash.compact}"
+  #puts "=====-----====="
+  #puts hash.compact.length
   hash.flatten!
-  puts "=====*****=====\n#{hash}"
-  puts "=====-----====="
-  puts hash.length
+  #puts "=====*****=====\n#{hash}"
+  #puts "=====-----====="
+  #puts hash.length
   hash.length
 end
 
