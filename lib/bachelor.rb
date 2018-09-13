@@ -22,8 +22,9 @@ def get_contestant_name(data, occupation)
   end
   puts "===+++==="
   puts "#{hash.class} : #{hash.compact}"
+  puts "=====-----====="
+  puts hash[0]["name"]
   hash[0]["name"]
-  
 end
 
 def count_contestants_by_hometown(data, hometown)
