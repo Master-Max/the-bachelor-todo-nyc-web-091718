@@ -63,6 +63,14 @@ def get_average_age_for_season(data, season)
     array_of_ages.push(x["age"])
   end
   puts "++++++++++\n#{season}: #{array_of_ages}"
+  
 end
 
+def average_an_array(array)
+  total
+  array.each do |x|
+    total += x
+  end
+  total / array.length
+end
 
