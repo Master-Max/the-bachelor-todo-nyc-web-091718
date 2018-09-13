@@ -1,3 +1,7 @@
+def get_first_name(full_name)
+  full_name.split(" ")[0]
+end
+
 def get_first_name_of_season_winner(data, season)
   winHash = data[season].find do |x|
     puts "#{x["status"]}"
