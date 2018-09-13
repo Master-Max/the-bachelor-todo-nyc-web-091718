@@ -57,7 +57,7 @@ def average_an_array(array)
   puts "//////////"
   total = 0
   array.each do |x|
-    total += x
+    total = total + x
   end
   puts total
 end
