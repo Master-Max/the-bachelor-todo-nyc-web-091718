@@ -21,7 +21,7 @@ def get_contestant_name(data, occupation)
     end
   end
   puts "===+++==="
-  puts "#{hash.class} : #{hash.}"
+  puts "#{hash.class} : #{hash.compact}"
   
 end
 
