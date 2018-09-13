@@ -53,6 +53,14 @@ def get_occupation(data, hometown)
   hash.compact[0]["occupation"]
 end
 
+def average_an_array(array)
+  total
+  array.each do |x|
+    total += x
+  end
+  total / array.length
+end
+
 def get_average_age_for_season(data, season)
   array_of_ages = []
   puts "====#{season}===="
@@ -67,11 +75,5 @@ def get_average_age_for_season(data, season)
   
 end
 
-def average_an_array(array)
-  total
-  array.each do |x|
-    total += x
-  end
-  total / array.length
-end
+
 
