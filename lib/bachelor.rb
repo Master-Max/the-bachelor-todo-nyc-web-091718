@@ -73,8 +73,7 @@ def get_average_age_for_season(data, season)
     array_of_ages.push(x["age"])
   end
   puts "++++++++++\n#{season}: #{array_of_ages}"
-  puts "#{average_an_array(array_of_ages)}"
-  
+  average_an_array(array_of_ages)
 end
 
 
