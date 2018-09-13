@@ -60,6 +60,7 @@ def get_average_age_for_season(data, season)
       w["age"].collect
     end
   end
+  puts "#{season}: #{array_of_ages}"
 end
 
 
