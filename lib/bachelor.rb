@@ -1,8 +1,7 @@
 def get_first_name_of_season_winner(data, season)
-  data[season].find do |x|
+  winHash = data[season].find do |x|
     puts "#{x["status"]}"
     x["status"] == "Winner"
-    return x["name"]
   end
 end
 
