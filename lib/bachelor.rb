@@ -5,7 +5,7 @@ def get_first_name_of_season_winner(data, season)
   end
   puts "===+++==="
   puts winHash
-  puts winHash["name"]
+  puts winHash["name"].first
 end
 
 def get_contestant_name(data, occupation)
