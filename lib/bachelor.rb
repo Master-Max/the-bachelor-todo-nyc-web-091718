@@ -20,10 +20,10 @@ def get_contestant_name(data, occupation)
       w["occupation"] == occupation
     end
   end
-  puts "===+++==="
-  puts "#{hash.class} : #{hash.compact}"
-  puts "=====-----====="
-  puts hash.compact[0]["name"]
+  #puts "===+++==="
+  #puts "#{hash.class} : #{hash.compact}"
+  #puts "=====-----====="
+  #puts hash.compact[0]["name"]
   hash.compact[0]["name"]
 end
 
