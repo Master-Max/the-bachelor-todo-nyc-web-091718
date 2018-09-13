@@ -15,7 +15,7 @@ def get_first_name_of_season_winner(data, season)
 end
 
 def get_contestant_name(data, occupation)
-  hash = data.collect do |x,y|
+  hash = data.find do |x,y|
     y.find do |w|
       w["occupation"] == occupation
     end
