@@ -56,10 +56,11 @@ end
 def get_average_age_for_season(data, season)
   array_of_ages = []
   puts "====#{season}===="
-  array_of_ages = data[season].collect do |x,y|
+  array_of_ages = data[season].each do |x,y|
     puts ".."
     puts "|X|#{x.class} || #{x}"
     puts x["age"]
+    array_of_ages.push(x["age"])
   end
   puts "#{season}: #{array_of_ages}"
 end
