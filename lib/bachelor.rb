@@ -54,26 +54,26 @@ def get_occupation(data, hometown)
 end
 
 def average_an_array(array)
-  puts "//////////"
+  #puts "//////////"
   total = 0.0
   array.each do |x|
-    puts "|X|#{x.class} || #{x}"
+    #puts "|X|#{x.class} || #{x}"
     total = total + x.to_i
   end
-  puts total / array.length
+  #puts total / array.length
   (total / array.length).round
 end
 
 def get_average_age_for_season(data, season)
   array_of_ages = []
-  puts "====#{season}===="
+  #puts "====#{season}===="
   data[season].each do |x,y|
-    puts ".."
-    puts "|X|#{x.class} || #{x}"
-    puts x["age"]
+    #puts ".."
+    #puts "|X|#{x.class} || #{x}"
+    #puts x["age"]
     array_of_ages.push(x["age"])
   end
-  puts "++++++++++\n#{season}: #{array_of_ages}"
+  #puts "++++++++++\n#{season}: #{array_of_ages}"
   average_an_array(array_of_ages)
 end
 
