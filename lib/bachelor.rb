@@ -3,6 +3,8 @@ def get_first_name_of_season_winner(data, season)
     puts "#{x["status"]}"
     x["status"] == "Winner"
   end
+  puts "===+++==="
+  winHash
 end
 
 def get_contestant_name(data, occupation)
